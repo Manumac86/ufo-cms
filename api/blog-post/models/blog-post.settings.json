@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "blog-post"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Date": {
+      "type": "datetime"
+    },
+    "Pictures": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  },
+  "connection": "default",
+  "collectionName": "blog_posts"
+}
