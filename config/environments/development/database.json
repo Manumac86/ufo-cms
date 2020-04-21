@@ -4,7 +4,7 @@
     "default": {
       "connector": "mongoose",
       "settings": {
-        "uri": "mongodb://ufo-admin:vq0GeO4zawqxFVX8@ufocluster-shard-00-00-ivhet.mongodb.net:27017,ufocluster-shard-00-01-ivhet.mongodb.net:27017,ufocluster-shard-00-02-ivhet.mongodb.net:27017/test?ssl=true&replicaSet=UFOCluster-shard-0&authSource=admin&retryWrites=true&w=majority"
+        "uri": "${process.env.DATABASE_URI}"
       },
       "options": {
         "ssl": true
