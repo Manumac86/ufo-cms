@@ -4,15 +4,10 @@
     "default": {
       "connector": "mongoose",
       "settings": {
-        "database": "ufo-strapi-db",
-        "host": "127.0.0.1",
-        "srv": false,
-        "port": 27017,
-        "username": "",
-        "password": ""
+        "uri": "mongodb://ufo-admin:vq0GeO4zawqxFVX8@ufocluster-shard-00-00-ivhet.mongodb.net:27017,ufocluster-shard-00-01-ivhet.mongodb.net:27017,ufocluster-shard-00-02-ivhet.mongodb.net:27017/test?ssl=true&replicaSet=UFOCluster-shard-0&authSource=admin&retryWrites=true&w=majority"
       },
       "options": {
-        "authenticationDatabase": "ufo-strapi-db"
+        "ssl": true
       }
     }
   }
