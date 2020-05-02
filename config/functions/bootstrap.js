@@ -12,7 +12,5 @@
 
 // Load environment variables
 // Pending this PR: https://github.com/strapi/strapi/pull/3485
-if(NODE_ENV !== 'production') {
-  require('dotenv').config({ path: require('find-config')('.env') });
-}
+// require('dotenv').config({ path: require('find-config')('.env') });
 module.exports = () => { };
