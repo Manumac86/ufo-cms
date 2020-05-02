@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "blog_posts",
   "info": {
     "name": "blog-post"
   },
@@ -21,8 +23,11 @@
       "via": "related",
       "plugin": "upload",
       "required": false
+    },
+    "categories": {
+      "collection": "category",
+      "via": "blog_posts",
+      "dominant": true
     }
-  },
-  "connection": "default",
-  "collectionName": "blog_posts"
+  }
 }
