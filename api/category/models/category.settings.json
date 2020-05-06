@@ -15,6 +15,12 @@
     "hidden": {
       "type": "boolean"
     },
+    "isContent": {
+      "type": "boolean"
+    },
+    "isSinglePage": {
+      "type": "boolean"
+    },
     "blog_posts": {
       "via": "categories",
       "collection": "blog-post"
