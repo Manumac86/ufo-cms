@@ -7,7 +7,6 @@
         "uri": "${process.env.DATABASE_URI}"
       },
       "options": {
-        "authenticationDatabase": "admin",
         "ssl": true
       }
     }
