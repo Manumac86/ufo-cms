@@ -18,15 +18,15 @@
     "Date": {
       "type": "datetime"
     },
-    "Pictures": {
-      "collection": "file",
+    "featured_image": {
+      "model": "file",
       "via": "related",
       "plugin": "upload",
-      "required": false
+      "required": true
     },
     "categories": {
-      "via": "blog_posts",
       "collection": "category",
+      "via": "blog_posts",
       "dominant": true
     }
   }
