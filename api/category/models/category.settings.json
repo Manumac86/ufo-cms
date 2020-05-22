@@ -22,8 +22,8 @@
       "type": "boolean"
     },
     "blog_posts": {
-      "collection": "blog-post",
-      "via": "categories"
+      "via": "categories",
+      "collection": "blog-post"
     },
     "order": {
       "type": "integer"
